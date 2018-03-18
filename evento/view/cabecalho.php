@@ -1,7 +1,6 @@
 <?php
-    $evento= "Evento GTI73";
-    $data="13/03/2018";
+    $evento= "1º Torneio de Voleibol - CAGETI";
+    $data="xx/xx/xxxx";
 ?>
-<h1> <?= $evento; ?> </h1>
-<h2> <?= $data; ?> </h2>
-<!--<h1><?php //echo "$evento";?></h1>-->
+
+<img src="../img/img-evento.png" alt="imagem" name="img-evento">
