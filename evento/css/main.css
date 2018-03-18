@@ -108,3 +108,20 @@ body{
 .img-cabecalho{
     margin-bottom: -5px;
 }
+
+.break{
+    clear: both;
+}
+
+.rodape{
+    color: white;
+    height: 150px;
+    background-color: #333333;
+    margin: 0;
+    font-size: 1.4em;
+}
+
+.contatos{
+    margin: 0;
+    padding: 30px;
+}

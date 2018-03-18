@@ -38,6 +38,11 @@ and open the template in the editor.
                     include ('./inicial.php');
                 ?>
             </div><!--Fim Principal-->
+            <div class="rodape">
+                <?php
+                include ('./rodape.php');
+                ?>
+            </div>
         </div><!--Fecha Corpo-->
     </body>
 </html>
