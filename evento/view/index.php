@@ -32,6 +32,7 @@ and open the template in the editor.
 
             <div class="principal"><!--Principal -->
                 <?php
+                    $nomeEvento = "1º Torneio de Vôlei de Areia";
                     include ('./inicial.php');
                 ?>
             </div><!--Fim Principal-->
