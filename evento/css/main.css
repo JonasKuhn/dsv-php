@@ -7,8 +7,6 @@ and open the template in the editor.
     Created on : 13/03/2018, 21:38:19
     Author     : gti-300
 */
-
-
 *{
     margin: 0px;
     padding: 0px;
@@ -25,8 +23,6 @@ body{
 }
 
 .corpo{
-    width: 1024px;
-    border: 1px solid;
     border-color: black;
     margin: 0 auto;
 }
@@ -34,7 +30,6 @@ body{
 .cabecalho {
     height: 536px;
     border-color: red;
-    border-bottom: 1px solid;
     text-align: center;
 }
 
@@ -53,11 +48,14 @@ body{
 }
 
 .menu {
-    height: 40px;
-    border-color: red;
-    border-bottom: 1px solid;
-    padding: 10px;
+    position: fixed;
+    top: 0px;
+    width:100%;
+    height: 60px;
+    padding: 0 auto;
+    padding-top: 18px;
     text-align: center;
+    background-color: #444343;
 }
 
 .menu ul{
@@ -82,8 +80,6 @@ body{
 }
 
 .principal {
-    border-color: red;
-    border: 1px dotted;
     width: 1000px;
     margin: 0 auto;
     margin-top: 10px;
