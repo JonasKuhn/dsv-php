@@ -27,7 +27,6 @@ body{
 }
 
 .cabecalho {
-    height: 556px;
     border-color: red;
     text-align: center;
     margin-top: 60px;
@@ -82,7 +81,7 @@ body{
 }
 
 .principal {
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
