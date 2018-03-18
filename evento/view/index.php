@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Evento GTI 73</title>
+        <title>1º Torneio de Volêi de Areia - Cageti</title>
         <link rel="shortcut icon" href="../img/ico.png" type="image/x-icon" />
         <link rel="stylesheet" href="../css/main.css" type="text/css">
     </head>
@@ -18,12 +18,16 @@ and open the template in the editor.
                     include ('./cabecalho.php');
                 ?>
             </div><!--Fim Cabecalho-->
-
+            
             <div class="menu"><!--BaraMenu -->
                 <?php
                     include ('./menu.php');
                 ?>
             </div><!--Fim baraMenu-->
+            
+            <div class="logoTipo">
+                <a href="index.php"><img id="img-cabecalho" src="../img/logo-cageti.png" alt="imagem" name="icon-logo"></a>
+            </div>
 
             <div class="principal"><!--Principal -->
                 <?php
