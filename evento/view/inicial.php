@@ -1,4 +1,4 @@
-<h1><?= $evento; ?></h1>
+
 <hr>
 
 <p class="evento_item"> O que é? </p>
