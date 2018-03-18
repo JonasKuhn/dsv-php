@@ -8,6 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Evento GTI 73</title>
+        <link rel="shortcut icon" href="../img/ico.png" type="image/x-icon" />
         <link rel="stylesheet" href="../css/main.css" type="text/css">
     </head>
     <body>
