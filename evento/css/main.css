@@ -16,7 +16,7 @@
     border: none;
     outline: none;  
     box-sizing: border-box;
-    font-family: 'AbrilFatface', cursive;
+    font-family: 'AbrilFatface';
 }   
 
 body{
@@ -105,4 +105,16 @@ body{
 
 .conteudo-topico p{
     font-family: 'GloriaHallelujah';
+    
+.data{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 300px;
+}
+.conteudo-topico span{
+    font-weight: normal;
+}
+
+.img-cabecalho{
+    margin-bottom: -5px;
 }
