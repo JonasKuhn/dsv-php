@@ -37,10 +37,8 @@ body{
     border-bottom: 1px solid;
     padding: 10px;
     text-align: center;
-}
-
-.img-cabecalho{
-    height: 536px;
+    position: absolute;
+    top: 50%;
 }
 
 .cabecalho h1{
