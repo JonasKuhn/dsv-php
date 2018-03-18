@@ -39,6 +39,10 @@ body{
     text-align: center;
 }
 
+.img-cabecalho{
+    height: 536px;
+}
+
 .cabecalho h1{
     padding: 0px;
     margin: 0px;
