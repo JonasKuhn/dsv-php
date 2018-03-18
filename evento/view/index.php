@@ -9,6 +9,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title>1º Torneio de Volêi de Areia - Cageti</title>
         <link rel="shortcut icon" href="../img/ico.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
         <link rel="stylesheet" href="../css/main.css" type="text/css">
     </head>
     <body>
