@@ -12,7 +12,7 @@
     border: none;
     outline: none;  
     box-sizing: border-box;
-    font-family: 'AbrilFatface', cursive;
+    font-family: 'AbrilFatface';
 }   
 
 body{
@@ -94,6 +94,15 @@ body{
 .conteudo-topico h2{
     text-align: center;
     padding-top: 20px;
+}
+
+.data{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 300px;
+}
+.conteudo-topico span{
+    font-weight: normal;
 }
 
 .img-cabecalho{

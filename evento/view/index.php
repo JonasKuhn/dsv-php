@@ -33,6 +33,8 @@ and open the template in the editor.
             <div class="principal"><!--Principal -->
                 <?php
                     $nomeEvento = "1º Torneio de Vôlei de Areia";
+                    $data = "Sábado, 21 de Abril de 2018";
+                    $local = "Associação JBS - Itapiranga, SC";
                     include ('./inicial.php');
                 ?>
             </div><!--Fim Principal-->
