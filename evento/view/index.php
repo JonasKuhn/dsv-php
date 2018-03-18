@@ -27,6 +27,7 @@ and open the template in the editor.
             <div class="principal"><!--Principal -->
                 <?php
                     include ('./inicial.php');
+					echo "teste";
                 ?>
             </div><!--Fim Principal-->
         </div><!--Fecha Corpo-->
