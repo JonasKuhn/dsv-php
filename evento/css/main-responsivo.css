@@ -14,13 +14,13 @@ img{width: 100%;}
 .menu-cabecalho{width:100%; float:left; padding: 3% 4%; background-color: #333333;}
 .logo{
     width:45%; 
-    padding-top: 3%; 
+    padding-top: 2.5%; 
     float: left;
     font-size: 0px;
 }
 .btn-menu{
-    width: 40px; 
-    height: 40px; 
+    width: 35px; 
+    height: 35px; 
     float: right; 
     text-align: center;
     color: #fff; 
@@ -39,13 +39,14 @@ img{width: 100%;}
     left: 0;
 }
 .btn-fechar{
-    width: 40px;
-    height: 40px;
-    font-size: 3em; 
+    width: 37px;
+    height: 35px;
+    padding-top: 2%;
+    padding-right: 1%;
+    font-size: 2em; 
     color: #fff; 
     float: right; 
     cursor: pointer; 
-    margin-right: 5%;
 }
 .btn-fechar:hover{color: #FFA155;}
 .menu ul{
@@ -56,7 +57,7 @@ img{width: 100%;}
 }
 .menu li{padding: 1.5%;}
 .menu li a{
-    font-size: 2em;
+    font-size: 1.5em;
     color: #E4E4E4; 
     padding: 1.5% 3%;
 }
@@ -89,24 +90,36 @@ img{width: 100%;}
 .principal-conteudo{
     width: 100%;
     float: left;
-    padding: 5% 10%;
+    padding: 5% 5%;
 }
 
-.conteudo h3{
+.conteudo h1{
     text-align: center;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .data{
     width: 100%;
+    height: 25px;
+    margin: 2% 0 0 0;
     text-align: center;
     float: left;
 }
 
 .data img{
     text-align: center;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
+
+.data span{
+    font-size: 0.8em;
+}
+
+.topico{font-size: 0.8em;}
+
+.evento-item{margin-bottom: 10px;font-weight: bold;}
 
 /*----RODAPE----*/
 
@@ -114,18 +127,34 @@ img{width: 100%;}
     background-color: #333333;
     width: 100%;
     float: left;
+    text-align: center;
     padding: 1.5% 10%;
 }
 
-.contatos{
-    width: 100%;
-    float: left;
+.social-icons{width: 100%; float: left; padding: 2%; font-size: 0.9em; color: rgba(255,255,255,0.7);}
+
+.social-icons img{float: left; width: 10%; margin-bottom: 2%;}
+
+.copyrigth{margin-top: 2%; color: rgba(255,255,255,0.7);}
+
+.break{
+    clear: both;
 }
 
-.contatos p{
-    font-weight: 100;
+/*----MEDIA SCREEN----*/
+
+/*Para o btn-menu*/
+@media screen and (min-width: 450px){
+.btn-menu{width: 35px; height: 35px; float: right; text-align: center; 
+         color: #fff; cursor: pointer; background-color: #333333; padding-top: 5px;}
+.logo{width:40%; padding-top: 2%; padding-bottom: 2%; float: left;font-size: 0px;}
+.btn-fechar{width: 44px; padding-top: 3%;padding-right: 1%; font-size: 2em;}
+.menu ul{padding-top: 20%;}
+.menu li{padding: 2%;}
 }
 
-.contatos img{
-    width: 10%;
+@media screen and (min-width: 480px){
+}
+
+@media screen and (min-width: 768px){
 }

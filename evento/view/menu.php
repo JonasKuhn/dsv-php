@@ -1,7 +1,7 @@
 <header class="logo">
     <a href="index.php"><img src="../img/logo-cageti.png" alt="img-cageti" name="img-cageti"></a>
 </header>
-<button class="btn-menu"><img src="../img/menu_icon.png" alt="icon-menu" name="icon-menu"></button>
+<button class="btn-menu"><img src="../img/icon-menu.png" alt="icon-menu" name="icon-menu"></button>
 
 <nav class="menu">
     <a class="btn-fechar">x</a>
