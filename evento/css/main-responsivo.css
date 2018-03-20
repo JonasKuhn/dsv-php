@@ -38,16 +38,16 @@ img{width: 100%;}
 
 .cabecalho{width: 100%; float: left; text-align: center;}
 
-.principal-conteudo{width: 100%; float: left; padding: 5% 5%;}
+.principal-conteudo{width: 100%; float: left; padding: 2% 5%;}
 
 .conteudo h1{text-align: center; font-size: 1.19em; font-weight: bold;}
 
 .data{width: 100%; height: 30px; text-align: center;}
 
 .data img{text-align: center; width: 18px; height: 18px; 
-        margin-top: 2px; float: left; margin-left: 75px;}
+        margin-top: 2px; float: left; margin-left: 13%;}
 
-.data span{font-size: 0.9em; float: left; margin-top: 5px; margin-left: 10px;}
+.data span{font-size: 0.9em; float: left; margin-top: 5px; margin-left: 5px;}
 
 .topico{font-size: 0.9em;}
 .topico p{text-align: justify;}
@@ -59,7 +59,7 @@ img{width: 100%;}
 .rodape{ background-color: #333333; width: 100%; float: left;
     text-align: center; padding: 1.5% 5%;}
 
-.icon{width: 77%; height:30px; margin-left: 23%;}
+.icon{width: 77%; height:30px; margin-left: 15%;}
 
 .icon img{height: 20px; width: 20px;}
 
@@ -75,29 +75,30 @@ img{width: 100%;}
 
             /*----MEDIA SCREEN----*/
             
+@media screen and (min-width: 380px){
+    .icon{margin-left: 18%;}
+}
+
 @media screen and (min-width: 475px){
-/*----MENU----*/
-.btn-menu{width: 40px; height: 40px;}
-/*----CABEÇALHO MENU----*/
 .logo{width:40%; padding-top: 2%; padding-bottom: 2%;}
+.btn-menu{width: 40px; height: 40px;}
 .btn-fechar{width: 44px; height: 50px; margin-top: 3%; margin-right: 1%; font-size: 2em;}
 .menu ul{padding-top: 20%;}
 .menu li{padding: 2%;}
-/*----CONTEUDO----*/
 .conteudo h1{font-size: 1.5em;}
 .data span{font-size: 1em;}
-.data img{margin-left: 95px;}
+.data img{margin-left: 23%; width: 22px; height: 22px;}
 .topico{font-size: 1em;}
 .topico p{padding: 2px; text-align: justify;}
+.icon{font-size: 1em; width: 75%;  margin-left: 22%;}
+.icon img{height: 22px; width: 22px;}
+.copyright{margin-top: 2%; color: rgba(255,255,255,0.7); font-size: 1em;}
+.icon{margin-left: 25%;}
 }
 
-@media screen and (min-width: 480px){
-    .logo{width:30%; padding-top: 2%; padding-bottom: 2%;}
-    .icon{width: 80%; margin-left: 20%;}
-}
 @media screen and (min-width: 635px){
-.logo{width:25%; padding-top: 2%; padding-bottom: 2%;}
-.menu-cabecalho{position: fixed;}
+.logo{position: fixed; width:25%; padding-top: 2%; padding-bottom: 2%;}
+.menu-cabecalho{position: fixed; height: 12.2%;}
 .cabecalho{margin-top: 13%;}
 .btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
         cursor: pointer; background-color: #333333;}
@@ -109,4 +110,66 @@ img{width: 100%;}
 .menu li{display: inline; padding: 1%;}
 .menu li a{font-size: 1em; color: #E4E4E4; padding: 0;}
 .menu li a:hover{color: #FFA155; border: none;}
+.icon{width: 65%; height:30px; margin-left: 32%;}
+}
+
+@media screen and (min-width: 768px){
+.logo{width:15%; padding-top: 1.5%; padding-bottom: 2%;}
+.menu-cabecalho{position: fixed;}
+.cabecalho{margin-top: 10.5%;}
+.btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
+        cursor: pointer; background-color: #333333;}
+.menu{display: initial; width: 100%; height: 0;}
+.btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
+            font-size: 2em; color: #fff; float: right; cursor: pointer;}
+.btn-fechar:hover{color: #FFA155;}
+.menu ul{width: 100%; padding-left: 24%; padding-top: 4%;float: right;}
+.menu li{display: inline; padding: 1%; font-size: 1.2em;}
+.menu li a{font-size: 1em; color: #E4E4E4; padding: 0;}
+.menu li a:hover{color: #FFA155; border: none;}
+.conteudo h1{font-size: 1.6em; font-weight: bold;}
+.data img{width: 25px; height: 28px; margin-left: 36%;}
+.topico{font-size: 1.1em;}
+.evento-item{font-size: 1.2em}
+.data span{font-size: 1.1em; float: left; margin-top: 5px; margin-left: 5px;}
+.copyright{font-size: 1.1em;}
+.icon{width: 65%; height:30px; margin-left: 31%; font-size: 1.1em;}
+.icon img{height: 25px; width: 25px;}
+}
+
+@media screen and (min-width: 1024px){
+.logo{position: fixed; width:17%; padding-top: 0; padding-bottom: 0;}
+.menu-cabecalho{position: fixed; height: 14%;}
+.cabecalho{margin-top: 8%;}
+.btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
+        cursor: pointer; background-color: #333333;}
+.menu{display: initial; width: 100%; height: 0;}
+.btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
+            font-size: 2em; color: #fff; float: right; cursor: pointer;}
+.btn-fechar:hover{color: #FFA155;}
+.menu ul{width: 100%; padding-left: 24%; padding-top: 3%; float: right;}
+.menu li{display: inline; padding: 1%;}
+.menu li a{font-size: 1.3em; color: #E4E4E4; padding: 0;}
+.menu li a:hover{color: #FFA155; border: none;}
+.data img{margin-left: 41%;}
+.icon{width: 65%; height:30px; margin-left: 39%;}
+}
+
+@media screen and (min-width: 1360px){
+.logo{position: fixed; width:10%; padding-top: 0; padding-bottom: 0;}
+.menu-cabecalho{position: fixed; height: 12%;}
+.logo img{margin-top: -12px;}
+.cabecalho{margin-top: 5%;}
+.btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
+        cursor: pointer; background-color: #333333;}
+.menu{display: initial; width: 100%; height: 0;}
+.btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
+            font-size: 2em; color: #fff; float: right; cursor: pointer;}
+.btn-fechar:hover{color: #FFA155;}
+.menu ul{width: 100%; padding-left: 24%; padding-top: 2%; float: right;}
+.menu li{display: inline; padding: 1%;}
+.menu li a{font-size: 1.1em; color: #E4E4E4; padding: 0;}
+.menu li a:hover{color: #FFA155; border: none;}
+.data img{margin-left: 41%;}
+.icon{width: 65%; height:30px; margin-left: 39%;}
 }
