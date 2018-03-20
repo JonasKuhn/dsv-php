@@ -112,6 +112,7 @@ img{width: 100%;}
 .menu li{padding: 1.5%;}
 .menu li a{font-size: 1.5em; color: #E4E4E4; padding: 1.5% 3%;}
 .menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
+.data img{margin-left: 30%;}
 .icon{width: 65%; height:30px; margin-left: 32%;}
 }
 
