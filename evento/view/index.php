@@ -33,7 +33,14 @@ and open the template in the editor.
             $nomeEvento = "1º Torneio de Vôlei de Areia";
             $data = "Sábado, 21 de Abril de 2018";
             $local = "Associação JBS - Itapiranga, SC";
-            include ('./descricao.php');
+            $url = $_GET['url'];
+            
+            switch ($url){
+                case 'inicial': include ('./descricao.php');break;
+                case 'cronograma': include ('./cronograma.php');break;
+                default : include ('./descricao.php');
+            }           
+            
             ?>
         </div><!--Fim Principal-->
 

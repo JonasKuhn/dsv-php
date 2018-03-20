@@ -3,9 +3,9 @@
 <nav class="menu">
     <a class="btn-fechar">x</a>
     <ul class="nav">
-        <li><a href="#">Inicial</a></li>
+        <li><a href="?url=inicial">Inicial</a></li>
         <li><a href="#">Descrição</a></li>
-        <li><a href="#">Cronograma</a></li>
+        <li><a href="?url=cronograma">Cronograma</a></li>
         <li><a href="#">Patrocinadores</a></li> 
         <li><a href="#">Valores</a></li>   
         <li><a href="#">Contato</a></li>
