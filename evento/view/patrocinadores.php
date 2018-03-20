@@ -1,6 +1,6 @@
 <div class="conteudo">
     <hr>
-    <div class="topico" id="patrocinadores">
+    <div class="topico">
         <p class="evento-item">&emsp;PATROCINADORES</p>    
         <p>&emsp;UCEFF Itapiranga</p>
         <p>Unidade Central de Educação FAI Faculdades - Centro Universitario FAI Itapiranga</p>

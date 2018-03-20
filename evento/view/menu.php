@@ -3,12 +3,12 @@
 <nav class="menu">
     <a class="btn-fechar">x</a>
     <ul class="nav">
-        <li><a href="#inicio">Inicial</a></li>
-        <li><a href="#descricao">Descrição</a></li>
-        <li><a href="#cronograma">Cronograma</a></li>
-        <li><a href="#patrocinadores">Patrocinadores</a></li> 
-        <li><a href="#valores">Valores</a></li>   
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#">Inicial</a></li>
+        <li><a href="#">Descrição</a></li>
+        <li><a href="#">Cronograma</a></li>
+        <li><a href="#">Patrocinadores</a></li> 
+        <li><a href="#">Valores</a></li>   
+        <li><a href="#">Contato</a></li>
     </ul>
     <script>
         $(".btn-menu").click(function () {

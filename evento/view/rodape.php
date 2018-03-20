@@ -1,4 +1,4 @@
-<footer class="contatos" id="contato">
+<footer class="contatos">
     <div class="icon">
         <a href="#"><img src="../img/icon-email.png" alt="e-mail"> </a>
         <p>cageti@faifaculdades.edu.br</p>

@@ -34,9 +34,6 @@ and open the template in the editor.
             $data = "Sábado, 21 de Abril de 2018";
             $local = "Associação JBS - Itapiranga, SC";
             include ('./descricao.php');
-            include ('./cronograma.php');
-            include ('./patrocinadores.php');
-            include ('./valor.php');
             ?>
         </div><!--Fim Principal-->
 

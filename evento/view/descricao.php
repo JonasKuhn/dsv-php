@@ -5,7 +5,7 @@
         <img src="../img/icon-calendario.jpg" alt="icon-calendario" name="Calendario"> 
         <span><?php echo "$data" ?></span>
     </div>
-    <div class="topico" id="descricao">
+    <div class="topico">
         <p class="evento-item">&emsp;DESCRIÇÃO DO EVENTO</p>  
         <p>&emsp;O 1º torneio de Vôlei de areia é um evento que foi motivado e organizado pelo
             CAGETI (Centro Acadêmico da Gestão da Tecnologia da Informação) junto da coordenação do curso.</p>

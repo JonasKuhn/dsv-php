@@ -1,6 +1,6 @@
 <div class="conteudo">
     <hr>
-    <div class="topico" id="cronograma">
+    <div class="topico">
         <p class="evento-item">&emsp;CRONOGRAMA DO EVENTO</p>    
         <p>&emsp;Esse evento será relizado no dia 31 de março de 2018 na AABB(Associação Atlética Banco do Brasil).</p>
 
