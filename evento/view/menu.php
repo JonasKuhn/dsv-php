@@ -4,11 +4,11 @@
     <a class="btn-fechar">x</a>
     <ul class="nav">
         <li><a href="?url=inicial">Inicial</a></li>
-        <li><a href="#">Descrição</a></li>
+        <li><a href="?url=descricao">Descrição</a></li>
         <li><a href="?url=cronograma">Cronograma</a></li>
-        <li><a href="#">Patrocinadores</a></li> 
-        <li><a href="#">Valores</a></li>   
-        <li><a href="#">Contato</a></li>
+        <li><a href="?url=patrocinadores">Patrocinadores</a></li> 
+        <li><a href="?url=valor">Valores</a></li>   
+        <li><a href="?url=contato">Contato</a></li>
     </ul>
     <script>
         $(".btn-menu").click(function () {

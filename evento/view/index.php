@@ -38,6 +38,10 @@ and open the template in the editor.
             switch ($url){
                 case 'inicial': include ('./descricao.php');break;
                 case 'cronograma': include ('./cronograma.php');break;
+                case 'contato': include ('./descricao.php'); break;
+                case 'patrocinadores': include ('./patrocinadores.php'); break;
+                case 'valor': include ('./valor.php'); break;
+                case 'descricao': include ('./descricao.php'); break;
                 default : include ('./descricao.php');
             }           
             
