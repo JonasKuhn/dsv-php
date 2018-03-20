@@ -2,19 +2,31 @@
 
 <nav class="menu">
     <a class="btn-fechar">x</a>
-    <ul>
-        <li><a href="#">Inicial</a></li>
-        <li><a href="#">Programação</a></li>
-        <li><a href="#">Preços</a></li>
-        <li><a href="#">Localização</a></li>   
-        <li><a href="#">Contato</a></li>
+    <ul class="nav">
+        <li><a href="#inicio">Inicial</a></li>
+        <li><a href="#descricao">Descrição</a></li>
+        <li><a href="#cronograma">Cronograma</a></li>
+        <li><a href="#patrocinadores">Patrocinadores</a></li> 
+        <li><a href="#valores">Valores</a></li>   
+        <li><a href="#contato">Contato</a></li>
     </ul>
     <script>
-        $(".btn-menu").click(function (){
+        $(".btn-menu").click(function () {
             $(".menu").show();
-        }); 
-        $(".btn-fechar").click(function (){
+        });
+        $(".btn-fechar").click(function () {
             $(".menu").hide();
+        });
+    </script>
+    <script>
+        $('.nav a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            var id = $(this).attr('href'),
+                    targetOffset = $(id).offset().top;
+
+            $('html, body').animate({
+                scrollTop: targetOffset - 100
+            }, 500);
         });
     </script>
 </nav>

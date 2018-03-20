@@ -3,7 +3,7 @@
     Author     : Cliente
 */
 *{margin: 0px; padding: 0px; border: none; font-weight: 300;
-  outline: none; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+  outline: none; box-sizing: border-box; font-family: 'Bree Serif', serif;}
 body{background-color: #f5f5f5 ;margin: 0px;padding: 0px;}
 a{text-decoration: none;}
 ul{list-style: none;}
@@ -50,9 +50,11 @@ img{width: 100%;}
 .data span{font-size: 0.9em; float: left; margin-top: 5px; margin-left: 5px;}
 
 .topico{font-size: 0.9em;}
-.topico p{text-align: justify;}
+.topico{text-align: justify;}
 
-.evento-item{margin-bottom: 10px;font-weight: bold; font-size: 1em}
+.p-center{text-align: center;}
+
+.evento-item{margin-bottom: 3%; margin-top: 2%; font-weight: bold; font-size: 1em}
 
 /*----RODAPE----*/
 
@@ -96,26 +98,26 @@ img{width: 100%;}
 .icon{margin-left: 25%;}
 }
 
-@media screen and (min-width: 635px){
-.logo{position: fixed; width:25%; padding-top: 2%; padding-bottom: 2%;}
-.menu-cabecalho{position: fixed; height: 12.2%;}
-.cabecalho{margin-top: 13%;}
-.btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
+@media screen and (min-width: 640px){
+.logo{width:28%; padding-top: 1.2%; padding-bottom: 0;}
+.menu-cabecalho{width:100%; float:left; padding: 3% 4%; background-color: #333333;}
+.btn-menu{width: 40px; height: 40px; float: right; text-align: center; color: #fff; 
         cursor: pointer; background-color: #333333;}
-.menu{display: initial; width: 100%; height: 0;}
-.btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
+.menu{display: none; width: 100%; height: 100%; position: fixed; 
+    background-color: rgba(0,0,0, 0.9); top:0; left: 0;}
+.btn-fechar{width: 50px; height: 50px; padding-top: 1%; padding-right: 1%;
             font-size: 2em; color: #fff; float: right; cursor: pointer;}
 .btn-fechar:hover{color: #FFA155;}
-.menu ul{width: 100%; padding-left: 24%; padding-top: 5%;float: right;}
-.menu li{display: inline; padding: 1%;}
-.menu li a{font-size: 1em; color: #E4E4E4; padding: 0;}
-.menu li a:hover{color: #FFA155; border: none;}
+.menu ul{width: 100%; padding-top:20%; float: left; text-align: center;}
+.menu li{padding: 1.5%;}
+.menu li a{font-size: 1.5em; color: #E4E4E4; padding: 1.5% 3%;}
+.menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
 .icon{width: 65%; height:30px; margin-left: 32%;}
 }
 
-@media screen and (min-width: 768px){
-.logo{width:15%; padding-top: 1.5%; padding-bottom: 2%;}
-.menu-cabecalho{position: fixed;}
+@media screen and (min-width: 767px){
+.logo{position: fixed; width:15%; padding-top: 1.5%; padding-bottom: 2%;}
+.menu-cabecalho{position: fixed; height: 12%;}
 .cabecalho{margin-top: 10.5%;}
 .btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
         cursor: pointer; background-color: #333333;}
@@ -123,12 +125,12 @@ img{width: 100%;}
 .btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
             font-size: 2em; color: #fff; float: right; cursor: pointer;}
 .btn-fechar:hover{color: #FFA155;}
-.menu ul{width: 100%; padding-left: 24%; padding-top: 4%;float: right;}
-.menu li{display: inline; padding: 1%; font-size: 1.2em;}
-.menu li a{font-size: 1em; color: #E4E4E4; padding: 0;}
-.menu li a:hover{color: #FFA155; border: none;}
+.menu ul{width: 100%; padding-left: 20%; padding-top: 4%;float: right;}
+.menu li{display: inline; padding: 0; font-size: 1.1em;}
+.menu li a{font-size: 1em; color: #E4E4E4; padding: 5px;}
+.menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
 .conteudo h1{font-size: 1.6em; font-weight: bold;}
-.data img{width: 25px; height: 28px; margin-left: 36%;}
+.data img{width: 25px; height: 25px; margin-left: 36%;}
 .topico{font-size: 1.1em;}
 .evento-item{font-size: 1.2em}
 .data span{font-size: 1.1em; float: left; margin-top: 5px; margin-left: 5px;}
@@ -138,7 +140,7 @@ img{width: 100%;}
 }
 
 @media screen and (min-width: 1024px){
-.logo{position: fixed; width:17%; padding-top: 0; padding-bottom: 0;}
+.logo{position: fixed; width:17%; padding-top: 0.4%; padding-bottom: 0;}
 .menu-cabecalho{position: fixed; height: 14%;}
 .cabecalho{margin-top: 8%;}
 .btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
@@ -149,8 +151,8 @@ img{width: 100%;}
 .btn-fechar:hover{color: #FFA155;}
 .menu ul{width: 100%; padding-left: 24%; padding-top: 3%; float: right;}
 .menu li{display: inline; padding: 1%;}
-.menu li a{font-size: 1.3em; color: #E4E4E4; padding: 0;}
-.menu li a:hover{color: #FFA155; border: none;}
+.menu li a{font-size: 1.2em; color: #E4E4E4; padding: 5px;}
+.menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
 .data img{margin-left: 41%;}
 .icon{width: 65%; height:30px; margin-left: 39%;}
 }
@@ -168,8 +170,10 @@ img{width: 100%;}
 .btn-fechar:hover{color: #FFA155;}
 .menu ul{width: 100%; padding-left: 24%; padding-top: 2%; float: right;}
 .menu li{display: inline; padding: 1%;}
-.menu li a{font-size: 1.1em; color: #E4E4E4; padding: 0;}
-.menu li a:hover{color: #FFA155; border: none;}
+.menu li a{font-size: 1.1em; color: #E4E4E4; padding: 5px;}
+.menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
 .data img{margin-left: 41%;}
+.topico p{text-align: center; }
+.evento-item{margin-top:2%; margin-bottom: 1%;}
 .icon{width: 65%; height:30px; margin-left: 39%;}
 }
