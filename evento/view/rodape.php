@@ -13,5 +13,5 @@
 
     <div class="break"></div>
 
-    <p class="copyrigth">Copyrigth © CAGETI 2018. Todos os direitos reservados.</p>
+    <p class="copyright">Copyright © CAGETI 2018. Todos os direitos reservados.</p>
 </footer>
