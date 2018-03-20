@@ -21,26 +21,18 @@ and open the template in the editor.
             include ('./menu.php');
             ?>
         </div><!--Fim baraMenu-->
-
-        <div class="cabecalho"><!--Cabecalho-->
-            <?php
-            include ('./cabecalho.php');
-            ?>
-        </div><!--Fim Cabecalho-->
-
+        
         <div class="principal-conteudo"><!--Principal -->
             <?php
             $nomeEvento = "1º Torneio de Vôlei de Areia";
             $data = "Sábado, 21 de Abril de 2018";
-            $local = "Associação JBS - Itapiranga, SC";
+            $local = "AABB(Associação Atlética Banco do Brasil)";
             $url = $_GET['url'];
             
             switch ($url){
-                case 'inicial': include ('./descricao.php');break;
                 case 'cronograma': include ('./cronograma.php');break;
                 case 'contato': include ('./descricao.php'); break;
                 case 'patrocinadores': include ('./patrocinadores.php'); break;
-                case 'valor': include ('./valor.php'); break;
                 case 'descricao': include ('./descricao.php'); break;
                 default : include ('./descricao.php');
             }           
