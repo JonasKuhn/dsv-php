@@ -1,9 +1,24 @@
+<?php
+include ('../conexao/conexao.php');
+
+$sql = "select nome_evento,data_inicio,data_fim"
+        . " from inicial";
+//mandando para o banco de dadoso comando de $sql//
+$query = $mysqli->query($sql);
+
+$dados = $query->fetch_array();
+$nomeEvento = $dados['nome_evento'];
+$dataInicio = $dados['data_inicio'];
+$dataFim = $dados['data_fim'];
+
+$reverse = implode( '/', array_reverse( explode( '-', $dataInicio ) ) );
+?>
 <div class="conteudo">
     <hr>
     <h1><?php echo "$nomeEvento" ?><br></h1>
     <div class="data">
         <img src="../img/icon-calendario.jpg" alt="icon-calendario" name="Calendario"> 
-        <span><?php echo "$data" ?></span>
+        <span><?php echo "$reverse" ?></span>
     </div>
     <div class="topico">
         <p class="evento-item">&emsp;DESCRIÇÃO DO EVENTO</p>  

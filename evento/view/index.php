@@ -24,8 +24,7 @@ and open the template in the editor.
         
         <div class="principal-conteudo"><!--Principal -->
             <?php
-            $nomeEvento = "1º Torneio de Vôlei de Areia";
-            $data = "Sábado, 21 de Abril de 2018";
+            
             $local = "AABB(Associação Atlética Banco do Brasil)";
             $url = $_GET['url'];
             
