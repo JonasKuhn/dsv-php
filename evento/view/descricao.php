@@ -13,15 +13,15 @@ $dataFim = $dados['data_fim'];
 
 $dt_separacao= explode("-",$dados['data_inicio']);
 switch ($dt_separacao[1]) {
-    case 01:$dt = "Janeiro"; break;
-    case 02:$dt = "Fevereiro"; break;
-    case 03:$dt = "Março"; break;
-    case 04:$dt = "Abril"; break;
-    case 05:$dt = "Maio"; break;
-    case 06:$dt = "Junho"; break;
-    case 07:$dt = "Julho"; break;
-    case 08:$dt = "Agosto"; break;
-    case 09:$dt = "Setembro"; break;
+    case 1:$dt = "Janeiro"; break;
+    case 2:$dt = "Fevereiro"; break;
+    case 3:$dt = "Março"; break;
+    case 4:$dt = "Abril"; break;
+    case 5:$dt = "Maio"; break;
+    case 6:$dt = "Junho"; break;
+    case 7:$dt = "Julho"; break;
+    case 8:$dt = "Agosto"; break;
+    case 9:$dt = "Setembro"; break;
     case 10:$dt = "Outubro"; break;
     case 11:$dt = "Novembro"; break;
     case 12: $dt = "Dezembro"; break;
