@@ -11,14 +11,54 @@ $nomeEvento = $dados['nome_evento'];
 $dataInicio = $dados['data_inicio'];
 $dataFim = $dados['data_fim'];
 
-$reverse = implode( '/', array_reverse( explode( '-', $dataInicio ) ) );
+$dt_separacao= explode("-",$dados['data_inicio']);
+switch ($dt_separacao[1]) {
+    case 01:
+        $dt = "Janeiro";
+        break;
+    case 02:
+        $dt = "Fevereiro";
+        break;
+    case 03:
+        $dt = "Março";
+        break;
+    case 04:
+        $dt = "Abril";
+        break;
+    case 05:
+        $dt = "Maio";
+        break;
+    case 05:
+        $dt = "Junho";
+        break;
+    case 05:
+        $dt = "Julho";
+        break;
+    case 05:
+        $dt = "Agosto";
+        break;
+    case 05:
+        $dt = "Setembro";
+        break;
+    case 05:
+        $dt = "Outubro";
+        break;
+    case 05:
+        $dt = "Novembro";
+        break;
+    case 05:
+        $dt = "Dezembro";
+        break;
+}
+$data=$dt_separacao[2]." de ".$dt." de ".$dt_separacao[0];
+
 ?>
 <div class="conteudo">
     <hr>
     <h1><?php echo "$nomeEvento" ?><br></h1>
     <div class="data">
         <img src="../img/icon-calendario.jpg" alt="icon-calendario" name="Calendario"> 
-        <span><?php echo "$reverse" ?></span>
+        <span><?php echo "$data" ?></span>
     </div>
     <div class="topico">
         <p class="evento-item">&emsp;DESCRIÇÃO DO EVENTO</p>  
