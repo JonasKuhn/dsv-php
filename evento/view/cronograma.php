@@ -2,8 +2,11 @@
     <?php
     include ('../conexao/conexao.php');
 
-    $sql = "select valor_inscricao "
+    $sqlValor = "select valor_inscricao "
             . "from tb_informacao";
+    $queryValor = $mysqli->query($sqlValor);
+    $dadosValor = $queryValor->fetch_array();
+    
     $sqlCronograma = "select * from tb_localizacao";
 
     $queryCronograma = $mysqli->query($sqlCronograma);
@@ -35,7 +38,7 @@
         <p class="evento-item">&emsp;VALORES</p>   
         
         <?php
-        $valor = $dados['valor_inscricao'];
+        $valor = number_format($dadosValor['valor_inscricao'],2 ,',', '.');
         ?>
         
         <p>&emsp;O valor para as duplas que irão participar sera de <?php echo "$valor" ?> reais.</p>
