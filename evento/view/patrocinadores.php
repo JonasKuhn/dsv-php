@@ -14,8 +14,6 @@
             $siglaPatrocinador = $dados['sigla_patrocinadores'];
             $nomePatrocinador = $dados['nome_patrocinadores'];
             ?>
-            
-               
             <p>&emsp;<?php echo "$siglaPatrocinador"?></p>
             <p><?php echo "$nomePatrocinador"?></p>
             <?php } ?>
