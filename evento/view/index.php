@@ -21,21 +21,27 @@ and open the template in the editor.
             include ('./menu.php');
             ?>
         </div><!--Fim baraMenu-->
-        
+        <div class="banner-principal">
+             <?php
+            include ('./cabecalho.php');
+            ?>
+        </div>
         <div class="principal-conteudo"><!--Principal -->
             <?php
-            
             $local = "AABB(Associação Atlética Banco do Brasil)";
             $url = $_GET['url'];
-            
-            switch ($url){
-                case 'cronograma': include ('./cronograma.php');break;
-                case 'contato': include ('./descricao.php'); break;
-                case 'patrocinadores': include ('./patrocinadores.php'); break;
-                case 'descricao': include ('./descricao.php'); break;
+
+            switch ($url) {
+                case 'cronograma': include ('./cronograma.php');
+                    break;
+                case 'contato': include ('./descricao.php');
+                    break;
+                case 'patrocinadores': include ('./patrocinadores.php');
+                    break;
+                case 'descricao': include ('./descricao.php');
+                    break;
                 default : include ('./descricao.php');
-            }           
-            
+            }
             ?>
         </div><!--Fim Principal-->
 

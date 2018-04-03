@@ -1,13 +1,13 @@
 <div class="conteudo">
     <hr>
     <div class="patrocinadores">
-        <div class="topico">
-            <p class="evento-item">&emsp;PATROCINADORES</p> 
+        <div class="evento">
+            <h1>Patrocinadores</h1> 
             <?php
             include ('../conexao/conexao.php');
 
             $sql = "select * from tb_patrocinadores";
-//mandando para o banco de dadoso comando de $sql//
+//mandando para o banco de dados o comando de $sql//
             $query = $mysqli->query($sql);
 
             while($dados = $query->fetch_array()){

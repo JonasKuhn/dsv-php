@@ -33,12 +33,12 @@ $data_inicio=$dt_separacao[2]." de ".$dt." de ".$dt_separacao[0];
 ?>
 <div class="conteudo">
     <hr>
-    <h1><?php echo "$nomeEvento" ?><br></h1>
+    <h1 class="nomeEvento"><?php echo "$nomeEvento" ?><br></h1>
     <div class="data">
-        <img src="../img/icon-calendario.jpg" alt="icon-calendario" name="Calendario"> 
+        <img src="../img/calendar_14122.png" alt="icon-calendario" name="Calendario"> 
         <span><?= $data_inicio ?></span>
     </div>
-    <div class="topico">
+    <div class="topico-descricao">
         <span><p>&emsp;<?= $descricao_evento?></p></span>
     </div>
 </div>

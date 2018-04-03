@@ -4,7 +4,7 @@
 */
 *{margin: 0px; padding: 0px; border: none; font-weight: 300;
   outline: none; box-sizing: border-box; font-family: 'Bree Serif', serif;}
-body{background-color: #f5f5f5 ;margin: 0px;padding: 0px;}
+body{;margin: 0px;padding: 0px;}
 a{text-decoration: none;}
 ul{list-style: none;}
 img{width: 100%;}
@@ -12,14 +12,14 @@ img{width: 100%;}
 /*----CABEÇALHO MENU----*/
 .menu-cabecalho{width:100%; float:left; padding: 3% 4%; background-color: #333333;}
 
-.logo{width:45%; padding-top: 2.5%; float: left; font-size: 0px;}
+.logo{width:45%; padding-top: 2.5%; float: left;}
 
 .btn-menu{width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
-        cursor: pointer; background-color: #333333;}
+          cursor: pointer; background-color: #333333;}
 
 /*----MENU----*/
 .menu{display: none; width: 100%; height: 100%; position: fixed; 
-    background-color: rgba(0,0,0, 0.9); top:0; left: 0;}
+      background-color: rgba(0,0,0, 0.9); top:0; left: 0;}
 
 .btn-fechar{width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
             font-size: 2em; color: #fff; float: right; cursor: pointer;}
@@ -30,39 +30,41 @@ img{width: 100%;}
 
 .menu li{padding: 1.5%;}
 
-.menu li a{font-size: 1.5em; color: #E4E4E4; padding: 1.5% 3%;}
+.menu li a{font-size: 1.5em; color: #E4E4E4; padding: 1.5% 3%; margin: 2px;}
 
-.menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
+.menu li a:hover{color: #FFA155; border: 1px solid #FFA155; margin: 2px;}
 
 /*----CONTEUDO----*/
 
-/*.cabecalho{width: 100%; float: left; text-align: center;}*/
+.cabecalho{width: 100%; float: left; text-align: center;}
 
-.principal-conteudo{width: 100%; float: left; padding: 2% 5%; 
-                   margin-top: 7.5%; margin-bottom: 4%;}
+.patrocinadores{margin-bottom: 3%;}
 
-.patrocinadores{margin-top: 5.5%; margin-bottom: 4%;}
+.conteudo{height: 100%;}
 
-.conteudo h1{text-align: center; font-size: 1.19em; font-weight: bold;}
+.conteudo h1{text-align: center; font-size: 1em; font-weight: bold;}
 
-.data{width: 100%; height: 30px; text-align: center; margin-left: 15px;}
+.data{height: 30px; text-align: center; margin-left: 30%;}
 
 .data img{text-align: center; width: 18px; height: 18px; 
-        margin-top: 2px; float: left; margin-left: 13%;}
+          margin-top: 2px; float: left; margin-left: 13%;}
 
-.data span{font-size: 0.9em; float: left; margin-top: 5px; margin-left: 5px;}
+.data span{font-size: 0.9em; float: left; margin-left: 5px;}
 
-.topico{font-size: 0.9em;}
-.topico{text-align: justify;}
+.topico{font-size: 0.9em; padding: 2% 5%; text-align: justify;}
+
+.topico-descricao{font-size: 0.9em; padding: 2% 5%; text-align: justify;}
+
+.evento{font-size: 1em; padding: 9% 5%; height: 200px; text-align: justify;}
 
 .p-center{text-align: center;}
 
-.evento-item{margin-bottom: 3%; margin-top: 2%; font-weight: bold; font-size: 1em}
+.evento-item{font-weight: bold; font-size: 1em}
 
 /*----RODAPE----*/
 
 .rodape{ background-color: #333333; width: 100%; float: left;
-    text-align: center; padding: 1.5% 5%;}
+         text-align: center; padding: 1.5% 1%;}
 
 .icon{width: 77%; height:30px; margin-left: 15%;}
 
@@ -78,106 +80,130 @@ img{width: 100%;}
 
 .icon{color: rgba(255,255,255,0.7); font-size: 0.8em;}
 
-            /*----MEDIA SCREEN----*/
-            
 @media screen and (min-width: 380px){
     .icon{margin-left: 18%;}
 }
 
 @media screen and (min-width: 475px){
-.logo{width:40%; padding-top: 2%; padding-bottom: 2%;}
-.btn-menu{width: 40px; height: 40px;}
-.btn-fechar{width: 44px; height: 50px; margin-top: 3%; margin-right: 1%; font-size: 2em;}
-.menu ul{padding-top: 20%;}
-.menu li{padding: 2%;}
-.conteudo h1{font-size: 1.5em;}
-.data span{font-size: 1em;}
-.data img{margin-left: 23%; width: 22px; height: 22px;}
-.topico{font-size: 1em;}
-.topico p{padding: 2px; text-align: justify;}
-.icon{font-size: 1em; width: 75%;  margin-left: 22%;}
-.icon img{height: 22px; width: 22px;}
-.copyright{margin-top: 2%; color: rgba(255,255,255,0.7); font-size: 1em;}
-.icon{margin-left: 25%;}
+    .logo{width:40%; padding-top: 2%; padding-bottom: 2%;}
+    .btn-menu{width: 40px; height: 40px;}
+    .btn-fechar{width: 44px; height: 50px; margin-top: 3%; margin-right: 1%; font-size: 2em;}
+    .menu ul{padding-top: 40%;}
+    .menu li{padding: 2%;}
+    .menu-cabecalho {padding: 2.5% 3.5%;}
+    .conteudo h1{font-size: 1.5em;}
+    .data span{font-size: 1.2em;}
+    .data img { margin-left: 20%; width: 30px; height: 30px;}
+    .topico-descricao{font-size: 1.2em; padding: 4% 5%; text-align: center;}
+    .topico{font-size: 1.2em; padding: 4% 5%; text-align: center;}
+    .evento{font-size: 1.2em; padding:5%; height: 230px;}
+    .topico-descricao p{padding: 2px; text-align: justify;}
+    .topico p{padding: 2px; text-align: justify;}
+    .icon{font-size: 1em; width: 75%;  margin-left: 18%;}
+    .icon img{height: 22px; width: 22px;}
+    .contatos{font-size: 1.1em;}
+    .copyright{font-size: 1em;}
+    .icon{margin-left: 25%;}
 }
 
 @media screen and (min-width: 640px){
-.logo{width:28%; padding-top: 1.2%; padding-bottom: 0;}
-.menu-cabecalho{width:100%; float:left; padding: 3% 4%; background-color: #333333;}
-.btn-menu{width: 40px; height: 40px; float: right; text-align: center; color: #fff; 
-        cursor: pointer; background-color: #333333;}
-.menu{display: none; width: 100%; height: 100%; position: fixed; 
-    background-color: rgba(0,0,0, 0.9); top:0; left: 0;}
-.btn-fechar{width: 50px; height: 50px; padding-top: 1%; padding-right: 1%;
-            font-size: 2em; color: #fff; float: right; cursor: pointer;}
-.btn-fechar:hover{color: #FFA155;}
-.menu ul{width: 100%; padding-top:20%; float: left; text-align: center;}
-.menu li{padding: 1.5%;}
-.menu li a{font-size: 1.5em; color: #E4E4E4; padding: 1.5% 3%;}
-.menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
-.data img{margin-left: 30%;}
-.icon{width: 65%; height:30px; margin-left: 32%;}
+    .logo{width:28%; padding-top: 1.2%; padding-bottom: 0;}
+    .menu-cabecalho{width:100%; float:left; padding: 3% 4%; background-color: #333333;}
+    .btn-menu{width: 40px; height: 40px; float: right; text-align: center; color: #fff; 
+              cursor: pointer; background-color: #333333;}
+    .menu{display: none; width: 100%; height: 100%; position: fixed; 
+          background-color: rgba(0,0,0, 0.9); top:0; left: 0;}
+    .btn-fechar{width: 50px; height: 50px; padding-top: 1%; padding-right: 1%;
+                font-size: 2em; color: #fff; float: right; cursor: pointer;}
+    .btn-fechar:hover{color: #FFA155;}
+    .menu ul{width: 100%; padding-top:20%; float: left; text-align: center;}
+    .menu li{padding: 1.5%;}
+    .menu li a{font-size: 1.5em; color: #E4E4E4; padding: 1.5% 3%;}
+    .menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
+    .data img{margin-left: 23%;}
+    .icon{width: 65%; height:30px; margin-left: 32%;}
+    .topico{margin-bottom: 2%;}
+    .topico-descricao{margin-bottom: 2%;}
 }
+
 
 @media screen and (min-width: 767px){
-.logo{position: fixed; width:15%; padding-top: 1.5%; padding-bottom: 2%;}
-.menu-cabecalho{position: fixed; height: 12%;}
-.cabecalho{margin-top: 10.5%;}
-.btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
-        cursor: pointer; background-color: #333333;}
-.menu{display: initial; width: 100%; height: 0;}
-.btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
-            font-size: 2em; color: #fff; float: right; cursor: pointer;}
-.btn-fechar:hover{color: #FFA155;}
-.menu ul{width: 100%; padding-left: 20%; padding-top: 4%;float: right;}
-.menu li{display: inline; padding: 0; font-size: 1.1em;}
-.menu li a{font-size: 1em; color: #E4E4E4; padding: 5px;}
-.menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
-.conteudo h1{font-size: 1.6em; font-weight: bold;}
-.data img{width: 25px; height: 25px; margin-left: 36%;}
-.topico{font-size: 1.1em;}
-.evento-item{font-size: 1.2em}
-.data span{font-size: 1.1em; float: left; margin-top: 5px; margin-left: 5px;}
-.copyright{font-size: 1.1em;}
-.icon{width: 65%; height:30px; margin-left: 31%; font-size: 1.1em;}
-.icon img{height: 25px; width: 25px;}
+    .logo{position: fixed; width:18%; padding-top: 0; padding-bottom: 2%;}
+    .menu-cabecalho{position: fixed; height: 10%;}
+    .banner{padding-top: 8.5%;}
+    .btn-menu{position: fixed;  display: none; width: 35px; height: 35px; 
+              float: right; text-align: center; color: #fff; cursor: pointer; 
+              background-color: #333333;}
+    .menu{display: initial; width: 100%; height: 0;}
+    .btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
+                font-size: 2em; color: #fff; float: right; cursor: pointer;}
+    .btn-fechar:hover{color: #FFA155;}
+    .menu ul{padding-top: 2.5%; margin-left: 20%;}
+    .menu li{display: inline; padding: 0; font-size: 1.1em;}
+    .menu li a {font-size: 1em; color: #E4E4E4; padding: 7px; margin: 3px;}
+    .menu li a:hover{color: #FFA155; margin:2px; border: 1px solid #FFA155;}
+    .conteudo h1 {font-size: 2em;}
+    .data{margin-left: 34%; height: 40px;}
+    .data img{margin-right: 2%;}
+    .evento {padding: 6% 5%;}
+    .evento-item{margin: 10px 0;}
+    .topico{font-size: 1.2em; padding: 0 5%; text-align: center;}
+    .topico-descricao{font-size: 1.2em; padding: 0 5%; text-align: center;}
+    .evento{padding: 0 5%;}
+    .evento h1{margin-bottom: 2%}
 }
 
-@media screen and (min-width: 1024px){
-.logo{position: fixed; width:17%; padding-top: 0.4%; padding-bottom: 0;}
-.menu-cabecalho{position: fixed; height: 14%;}
-.cabecalho{margin-top: 8%;}
-.btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
-        cursor: pointer; background-color: #333333;}
-.menu{display: initial; width: 100%; height: 0;}
-.btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
-            font-size: 2em; color: #fff; float: right; cursor: pointer;}
-.btn-fechar:hover{color: #FFA155;}
-.menu ul{width: 100%; padding-left: 24%; padding-top: 3%; float: right;}
-.menu li{display: inline; padding: 1%;}
-.menu li a{font-size: 1.2em; color: #E4E4E4; padding: 5px;}
-.menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
-.data img{margin-left: 41%;}
-.icon{width: 65%; height:30px; margin-left: 39%;}
+@media screen and (min-width: 1023px){
+    .logo{position: fixed; width:17%; padding-top: 0.4%; padding-bottom: 0;}
+    .menu-cabecalho{position: fixed; height: 14%;}
+    .cabecalho{margin-top: 8%;}
+    .btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
+              cursor: pointer; background-color: #333333;}
+    .menu{display: initial; width: 100%; height: 0;}
+    .btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
+                font-size: 2em; color: #fff; float: right; cursor: pointer;}
+    .btn-fechar:hover{color: #FFA155;}
+    .menu ul{width: 100%; padding-left: 24%; padding-top: 3%; float: right;}
+    .menu li{display: inline; padding: 1%;}
+    .menu li a{font-size: 1.2em; color: #E4E4E4; padding: 5px;}
+    .menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
+    .data {margin-left: 38%;}
+    .icon{width: 62%; height:30px; margin-left: 39%;}
+    .topico {padding: 0% 5%;}
+    .topico-descricao {padding: 0% 5%;}
+    .evento {padding: 0% 5%;}
+    .evento h1 {margin-bottom: 3%;}
+    .evento p {text-align: center;}
 }
 
 @media screen and (min-width: 1360px){
-.logo{position: fixed; width:10%; padding-top: 0; padding-bottom: 0;}
-.menu-cabecalho{position: fixed; height: 12%;}
-.logo img{margin-top: -12px;}
-.cabecalho{margin-top: 5%;}
-.btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
-        cursor: pointer; background-color: #333333;}
-.menu{display: initial; width: 100%; height: 0;}
-.btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
-            font-size: 2em; color: #fff; float: right; cursor: pointer;}
-.btn-fechar:hover{color: #FFA155;}
-.menu ul{width: 100%; padding-left: 24%; padding-top: 2%; float: right;}
-.menu li{display: inline; padding: 1%;}
-.menu li a{font-size: 1.1em; color: #E4E4E4; padding: 5px;}
-.menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
-.data img{margin-left: 41%;}
-.topico p{text-align: center; }
-.evento-item{margin-top:2%; margin-bottom: 1%;}
-.icon{width: 65%; height:30px; margin-left: 39%;}
+    .logo{position: fixed; width:15%; padding-top: 0; padding-bottom: 0;}
+    .menu-cabecalho{position: fixed; height: 10%;}
+    .banner {padding-top: 5.5%;}
+    .logo img{margin-top: -12px;}
+    .cabecalho{margin-top: 5%;}
+    .btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
+              cursor: pointer; background-color: #333333;}
+    .menu{display: initial; width: 100%; height: 0;}
+    .btn-fechar{display: none; width: 37px; height: 35px; padding-top: 2%; padding-right: 1%;
+                font-size: 2em; color: #fff; float: right; cursor: pointer;}
+    .btn-fechar:hover{color: #FFA155;}
+    .menu ul{width: 100%; padding-left: 24%; padding-top: 2%; float: right;}
+    .menu li{display: inline; padding: 1%;}
+    .menu li a{font-size: 1.1em; color: #E4E4E4; padding: 5px;}
+    .menu li a:hover{color: #FFA155; border: 1px solid #FFA155;}
+    .data{margin-left: 17%;}
+    .data img{margin-left: 41%;}
+    .data span {float: left; margin-top: 2px; margin-left: -11px;}
+    .topico-descricao p {text-align: center; font-size: 1.3em; padding: 4% 0%;}
+    .topico p {text-align: center; font-size: 1em;}
+    .evento-item{margin-top:2%; margin-bottom: 1%;}
+    .evento p{text-align: center;}
+    .icon{width: 60%; height:30px; margin-left: 39%;}
+    .banner{display:none; }
+    .patrocinadores{height: 370px; margin-bottom: 3%;padding-top: 8%;}
+    .nomeEvento {padding-top: 5%; font-size: 3em;}
+    .principal-conteudo{width: 100%;float: left; margin-top: 5.5%;  background: url(../img/img-evento.png);
+        background-size: 100%; background-repeat: no-repeat; }
+    .topico{padding: 0% 12%;}   
 }
