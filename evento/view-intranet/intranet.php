@@ -1,17 +1,46 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Intranet</title>
+        <link rel="stylesheet" type="text/css" href="../css/main-intranet.css">
+        <link rel="shortcut icon" href="../img/ico.png" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" 
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <div class="conteudo-principal">
+            <div class="cabecalho">
+                <?php
+                include '../view-intranet/cabecalho-intranet.php';
+                ?>
+            </div>
+            <div class="menu">
+                <?php
+                include '../view-intranet/menu-intranet.php';
+                ?>
+            </div>
+            <div class="principal">
+                <?php
+                $url = $_GET['url'];
+
+                switch ($url) {
+                    case 'cronograma': include ('./cronograma-intranet.php');
+                        break;
+                    case 'patrocinadores': include ('./patrocinadores-intranet.php');
+                        break;
+                    case 'descricao': include ('./descricao-intranet.php');
+                        break;
+                    default : include ('./descricao-intranet.php');
+                }
+                ?>
+            </div>
+            <div class="break"></div>
+            <div class="rodape">
+                <?php
+                include'./rodape-intranet.php';
+                ?>
+            </div>
+        </div>
     </body>
 </html>

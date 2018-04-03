@@ -1,0 +1,46 @@
+/* 
+    Created on : 03/04/2018, 15:27:58
+    Author     : Jonas Kuhn
+*/
+
+*{margin: 0px; padding: 0px; border: none; font-weight: 300;
+  outline: none; box-sizing: border-box; font-family: 'Bree Serif', serif;}
+body{;margin: 0px;padding: 0px;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{width: 100%;}
+
+.conteudo-principal{margin: 0 auto; height: 100%;}
+
+.cabecalho{height:70px; background-color: #333333; padding: 1%;}
+
+.logo{width: 15%; margin: 0 auto;}
+
+.logo img{margin-top: 5px;}
+
+.menu{height: 527px; width: 300px; float: left; background-color: rgba(0,0,0, 1); top:0; left: 0;}
+
+.menu ul{width: 100%; padding-top: 10%; float: left;}
+
+.menu li{padding: 1.5%; margin: 5px;}
+
+.menu li a{font-size: 1.5em; color: #E4E4E4; padding: 1.5% 3%; margin: 2px;}
+
+.menu li a:hover{border: 1px solid #E4E4E4; margin: 2px;}
+
+.principal{
+    height: 527px;
+    width: 100%;
+}
+
+.rodape{
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright{padding-top: 10px; color: rgba(255,255,255,0.8); font-size: 1em;}
+
+.break{clear: both;}
