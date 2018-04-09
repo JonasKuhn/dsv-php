@@ -3,7 +3,7 @@
     Author     : Jonas Kuhn
 */
 
-*{margin: 0px; padding: 0px; border: none; font-weight: 300;
+*{margin: 0px; padding: 0px; font-weight: 300;
   outline: none; box-sizing: border-box; font-family: 'Bree Serif', serif;}
 body{;margin: 0px;padding: 0px;}
 a{text-decoration: none;}
@@ -18,7 +18,7 @@ img{width: 100%;}
 
 .logo img{margin-top: 5px;}
 
-.menu{height: 527px; width: 300px; float: left; background-color: rgba(0,0,0, 1); top:0; left: 0;}
+.menu{height: 527px; width: 25%; float: left; background-color: rgba(0,0,0, 1); top:0; left: 0;}
 
 .menu ul{width: 100%; padding-top: 10%; float: left;}
 
@@ -29,11 +29,45 @@ img{width: 100%;}
 .menu li a:hover{border: 1px solid #E4E4E4; margin: 2px;}
 
 .principal{
+    float: right;
     height: 527px;
-    width: 100%;
+    width: 75%;
 }
 
+.principal h2{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.principal hr{
+    height: 2px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.col1{text-align: center;}
+
+.col1 span img{width: 30%; float: left; padding: 5%; margin-left: 13%;}
+
+.col2{text-align: center;}
+
+.col3{text-align: center;}
+
+.col4{text-align: center;}
+
+col5{text-align: center;}
+
+.col5 span img{width: 40%; padding: 5%;}
+
+.total{text-align: right; padding-right: 10px;}
+
 .rodape{
+    clear: both;
     height: 50px;
     width: 100%;
     background-color: #333333;
@@ -42,5 +76,3 @@ img{width: 100%;}
 }
 
 .copyright{padding-top: 10px; color: rgba(255,255,255,0.8); font-size: 1em;}
-
-.break{clear: both;}

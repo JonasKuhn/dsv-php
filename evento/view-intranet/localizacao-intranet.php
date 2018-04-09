@@ -1,4 +1,4 @@
-<h2>Patrocinadores</h2>
+<h2>Localização</h2>
 <hr>
 
 <table border="1" width="95%">
@@ -9,15 +9,19 @@
                     <a href="#"><img src="../img/icon-novo-arquivo.png" alt="novo" title="NOVO"></a>
                 </span>
             </th>
-            <th>Cod. Patrocinadores</th>
-            <th>Razão Social</th>
-            <th>Sigla</th>
+            <th>Cod. Localização</th>
+            <th>Rua</th>
+            <th>Bairro</th>
+            <th>Cidade</th>
+            <th>CEP</th>
+            <th>Número</th>
+            <th>Descrição do Local</th>
         </tr>
     </thead>
     <tbody>
         <?php
         include '../conexao/conexao.php';
-        $sql = "select * from tb_patrocinadores";
+        $sql = "select * from tb_localizacao";
         //mandando para o banco de dados o comando de $sql//
         $query = $mysqli->query($sql);
         
@@ -25,9 +29,13 @@
         //$contador = $query->num_rows;
 
         while ($dados = $query->fetch_array()) {
-            $cod = $dados['cod_patrocinadores'];
-            $siglaPatrocinador = $dados['sigla_patrocinadores'];
-            $nomePatrocinador = $dados['nome_patrocinadores'];
+            $cod = $dados['cod_localizacao'];
+            $rua = $dados['rua'];
+            $bairro = $dados['bairro'];
+            $cidade = $dados['cidade'];
+            $cep = $dados['cep'];
+            $numero = $dados['numero'];
+            $nomeLocal = $dados['nome_local'];
             $contador ++;
             ?>
         <tr>
@@ -38,12 +46,17 @@
                 </span>
             </td>
             <td class="col2"><?=$cod?></td>
-            <td class="col3"><?="$nomePatrocinador"?></td>
-            <td class="col4"><?="$siglaPatrocinador"?></td>
+            <td class="col3"><?=$rua?></td>
+            <td class="col4"><?=$bairro?></td>
+            <td class="col1"><?=$cidade?></td>
+            <td class="col2"><?=$cep?></td>
+            <td class="col3"><?=$numero?></td>
+            <td class="col4"><?=$nomeLocal?></td>
+        </tr>
+        <tr>
+            <td colspan="8" class="total">Quantidade de registros: <?=$contador?></td>
+            
         </tr>
         <?php } ?>
-        <tr>
-            <td colspan="4" class="total">Total Registros: <?=$contador?></td>
-        </tr>
     </tbody>
 </table>

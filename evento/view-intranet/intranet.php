@@ -25,7 +25,7 @@
                 $url = $_GET['url'];
 
                 switch ($url) {
-                    case 'cronograma': include ('./cronograma-intranet.php');
+                    case 'localizacao': include ('./localizacao-intranet.php');
                         break;
                     case 'patrocinadores': include ('./patrocinadores-intranet.php');
                         break;
