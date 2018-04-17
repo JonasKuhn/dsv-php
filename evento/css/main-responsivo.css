@@ -176,12 +176,13 @@ img{width: 100%;}
     .evento p {text-align: center;}
 }
 
-@media screen and (min-width: 1360px){
+@media screen and (min-width: 1350px){
     .logo{position: fixed; width:15%; padding-top: 0; padding-bottom: 0;}
     .menu-cabecalho{position: fixed; height: 10%;}
     .banner {padding-top: 5.5%;}
     .logo img{margin-top: -12px;}
     .cabecalho{margin-top: 5%;}
+    .conteudo{ background: rgba(255, 255, 255, 0.3);}
     .btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
               cursor: pointer; background-color: #333333;}
     .menu{display: initial; width: 100%; height: 0;}
@@ -195,9 +196,10 @@ img{width: 100%;}
     .data{margin-left: 17%;}
     .data img{margin-left: 41%;}
     .data span {float: left; margin-top: 2px; margin-left: -11px;}
-    .topico-descricao p {text-align: center; font-size: 1.3em; padding: 4% 0%;}
-    .topico p {text-align: center; font-size: 1em;}
-    .evento-item{margin-top:2%; margin-bottom: 1%;}
+    .topico-descricao p {text-align: center; font-size: 1.2em; line-height: 35px; padding: 4% 0%;}
+    .topico{font-size: 1.1em;}
+    .topico p {text-align: center; font-size: 1.1em;}
+    .evento-item{ margin-bottom: 1%;}
     .evento p{text-align: center;}
     .icon{width: 60%; height:30px; margin-left: 39%;}
     .banner{display:none; }

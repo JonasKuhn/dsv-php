@@ -7,7 +7,7 @@
             include ('../conexao/conexao.php');
 
             $sql = "select * from tb_patrocinadores";
-//mandando para o banco de dados o comando de $sql//
+            //mandando para o banco de dados o comando de $sql//
             $query = $mysqli->query($sql);
 
             while($dados = $query->fetch_array()){
@@ -16,6 +16,7 @@
             ?>
             <p>&emsp;<?php echo "$siglaPatrocinador"?></p>
             <p><?php echo "$nomePatrocinador"?></p>
+            <br>
             <?php } ?>
         </div>
     </div>

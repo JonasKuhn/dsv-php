@@ -26,7 +26,7 @@
                     . $bairro . '. Junto à ' . $localizacao . '.' ?>
         </p>
 
-        <p class="p-center"><br>Terá início às 08h00min.</p>
+        <p class="p-center">Terá início às 08h00min.</p>
         <p class="p-center">Esta será a ordem de jogos:</p>
 
         <p class="p-center">Time A X Time G</p>
