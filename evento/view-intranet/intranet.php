@@ -31,6 +31,8 @@
                         break;
                     case 'descricao': include ('./descricao-intranet.php');
                         break;
+                    case 'loc_inc': include ('./localizacao_opcoes/loc_inc.php');
+                        break;
                     default : include ('./descricao-intranet.php');
                 }
                 ?>

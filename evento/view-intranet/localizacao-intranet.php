@@ -6,7 +6,7 @@
         <tr>
             <th class="col5">
                 <span>
-                    <a href="#"><img src="../img/icon-novo-arquivo.png" alt="novo" title="NOVO"></a>
+                    <a href="?url=loc_inc"><img src="../img/icon-novo-arquivo.png" alt="novo" title="Incluir registro"></a>
                 </span>
             </th>
             <th>Cod. Localização</th>
