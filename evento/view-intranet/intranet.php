@@ -33,6 +33,10 @@
                         break;
                     case 'loc_inc': include ('./localizacao_opcoes/loc_inc.php');
                         break;
+                    case 'desc_inc': include ('../view-intranet/descricao_opcoes/desc_inc.php');
+                        break;
+                    case 'patroc_inc': include ('../view-intranet/patrocinadores-opcoes/patroc_inc.php');
+                        break;
                     default : include ('./descricao-intranet.php');
                 }
                 ?>

@@ -182,7 +182,7 @@ img{width: 100%;}
     .banner {padding-top: 5.5%;}
     .logo img{margin-top: -12px;}
     .cabecalho{margin-top: 5%;}
-    .conteudo{ background: rgba(255, 255, 255, 0.3);}
+    .conteudo{ background: rgba(255, 255, 255, 0.3); min-height: 440px;}
     .btn-menu{position: fixed;  display: none; width: 35px; height: 35px; float: right; text-align: center; color: #fff; 
               cursor: pointer; background-color: #333333;}
     .menu{display: initial; width: 100%; height: 0;}

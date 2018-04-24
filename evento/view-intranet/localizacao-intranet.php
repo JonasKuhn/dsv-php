@@ -53,10 +53,10 @@
             <td class="col3"><?=$numero?></td>
             <td class="col4"><?=$nomeLocal?></td>
         </tr>
+        <?php } ?>
         <tr>
             <td colspan="8" class="total">Quantidade de registros: <?=$contador?></td>
             
         </tr>
-        <?php } ?>
     </tbody>
 </table>

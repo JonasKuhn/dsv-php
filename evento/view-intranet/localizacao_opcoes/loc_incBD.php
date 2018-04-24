@@ -3,35 +3,20 @@
 include ("../../conexao/conexao.php");
 
 //passar os dados para variaveis
-$endereco = $_POST['endereco'];
+$rua = $_POST['rua'];
 $bairro = $_POST['bairro'];
 $cidade = $_POST['cidade'];
 $cep = $_POST['cep'];
-$nomeLocal = $_POST['nome_local'];
+$nome_local = $_POST['nome_local'];
 $numero = $_POST['numero'];
 
 //enviar dados para o banco
-$sql = "insert into tb_localizacao (
-    endereco,
-    bairro,
-    cidade,
-    cep,
-    nome_local,
-    numero
-    ) values (
-        '$endereco',
-        '$bairro',
-        '$cidade',
-        '$cep',
-        '$nomeLocal',
-        '$numero'
-     );";
-
-//echo $sql;
+$sql = "insert into tb_localizacao(rua, bairro, cidade, cep, nome_local, numero)"
+    . " values('$rua', '$bairro', '$cidade', '$cep', '$numero', '$nome_local');";
 
 if($mysqli->query($sql)){
-    header('location: intranet.php?url_loc');
-    exit;
+    header('location: ../intranet.php?url=localizacao');
+    exit();
 } else {
     echo ("Erro: %s\n".$mysqli->error);
 }

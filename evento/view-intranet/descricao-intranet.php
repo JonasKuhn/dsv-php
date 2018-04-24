@@ -2,12 +2,11 @@
 <hr>
 
 <table border="1" width="95%">
-    
     <thead>
         <tr>
             <th class="col5">
                 <span>
-                    <a href="#"><img src="../img/icon-novo-arquivo.png" alt="novo" title="NOVO"></a>
+                    <a href="?url=desc_inc"><img src="../img/icon-novo-arquivo.png" alt="novo" title="NOVO"></a>
                 </span>
             </th>
             <th>Código</th>

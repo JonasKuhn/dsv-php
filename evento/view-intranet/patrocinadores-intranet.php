@@ -6,7 +6,9 @@
         <tr>
             <th class="col5">
                 <span>
-                    <a href="#"><img src="../img/icon-novo-arquivo.png" alt="novo" title="NOVO"></a>
+                    <a href="?url=patroc_inc">
+                        <img src="../img/icon-novo-arquivo.png" alt="novo" title="NOVO">
+                    </a>
                 </span>
             </th>
             <th>Cod. Patrocinadores</th>
@@ -20,7 +22,7 @@
         $sql = "select * from tb_patrocinadores";
         //mandando para o banco de dados o comando de $sql//
         $query = $mysqli->query($sql);
-        
+
         //retorna o numero de registros da tabela
         //$contador = $query->num_rows;
 
@@ -30,20 +32,20 @@
             $nomePatrocinador = $dados['nome_patrocinadores'];
             $contador ++;
             ?>
-        <tr>
-            <td class="col1">
-                <span>
-                    <a href="#"><img src="../img/icon-editar.png" alt="editar" title="EDITAR"></a>
-                    <a href="#"><img src="../img/icon-lixo.png" alt="apagar" title="APAGAR"></a>
-                </span>
-            </td>
-            <td class="col2"><?=$cod?></td>
-            <td class="col3"><?="$nomePatrocinador"?></td>
-            <td class="col4"><?="$siglaPatrocinador"?></td>
-        </tr>
+            <tr>
+                <td class="col1">
+                    <span>
+                        <a href="#"><img src="../img/icon-editar.png" alt="editar" title="EDITAR"></a>
+                        <a href="#"><img src="../img/icon-lixo.png" alt="apagar" title="APAGAR"></a>
+                    </span>
+                </td>
+                <td class="col2"><?= $cod ?></td>
+                <td class="col3"><?= "$nomePatrocinador" ?></td>
+                <td class="col4"><?= "$siglaPatrocinador" ?></td>
+            </tr>
         <?php } ?>
         <tr>
-            <td colspan="4" class="total">Total Registros: <?=$contador?></td>
+            <td colspan="4" class="total">Total Registros: <?= $contador ?></td>
         </tr>
     </tbody>
 </table>
