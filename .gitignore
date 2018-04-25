@@ -23,7 +23,5 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
-/evento/nbproject/private/
-
-/evento/nbproject
-/vendas/nbproject/private/
+/evento
+/example-view
