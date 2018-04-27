@@ -72,6 +72,9 @@
         <?php
             include ('./intro.php');
         ?>
+        <?php
+            include ('./vantagens.php');
+        ?>
         
         <!-- JavaScript Libraries -->
         <script src="../lib/jquery/jquery.min.js"></script>
