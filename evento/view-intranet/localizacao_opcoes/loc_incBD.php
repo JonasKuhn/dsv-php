@@ -11,7 +11,7 @@ $nome_local = $_POST['nome_local'];
 $numero = $_POST['numero'];
 
 //enviar dados para o banco
-$sql = "insert into tb_localizacao(rua, bairro, cidade, cep, nome_local, numero)"
+$sql = "insert into tb_localizacao(rua, bairro, cidade, cep, numero, nome_local)"
     . " values('$rua', '$bairro', '$cidade', '$cep', '$numero', '$nome_local');";
 
 if($mysqli->query($sql)){

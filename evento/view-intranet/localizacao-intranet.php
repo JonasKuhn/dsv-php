@@ -19,6 +19,9 @@
         </tr>
     </thead>
     <tbody>
+        <!--
+        buscar os dados na tabela do banco de dados
+        -->
         <?php
         include '../conexao/conexao.php';
         $sql = "select * from tb_localizacao";
@@ -41,7 +44,7 @@
         <tr>
             <td class="col1">
                 <span>
-                    <a href="#"><img src="../img/icon-editar.png" alt="editar" title="EDITAR"></a>
+                    <a href="?url=loc_alt&id=<?=$cod?>"><img src="../img/icon-editar.png" alt="editar" title="EDITAR"></a>
                     <a href="#"><img src="../img/icon-lixo.png" alt="apagar" title="APAGAR"></a>
                 </span>
             </td>

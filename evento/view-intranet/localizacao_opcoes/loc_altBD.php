@@ -10,9 +10,17 @@ $cep = $_POST['cep'];
 $nome_local = $_POST['nome_local'];
 $numero = $_POST['numero'];
 
+$id = $_GET['id'];
+
 //enviar dados para o banco
-$sql = "insert into tb_localizacao(rua, bairro, cidade, cep, nome_local, numero)"
-    . " values('$rua', '$bairro', '$cidade', '$cep', '$numero', '$nome_local');";
+$sql = "update tb_localizacao set "
+        . "rua = '$rua',"
+        . "bairro = '$bairro',"
+        . "cidade = '$cidade',"
+        . "cep = '$cep',"
+        . "nome_local = '$nome_local',"
+        . "numero = '$numero'"
+        . "where cod_localizacao = $id;";
 
 if($mysqli->query($sql)){
     header('location: ../intranet.php?url=localizacao');

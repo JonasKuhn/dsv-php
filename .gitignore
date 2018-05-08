@@ -24,3 +24,5 @@
 /app/Config/database.php
 /vendors/*
 /evento/nbproject/private/
+/aps-intranet/nbproject/private/
+/apsIntranet/nbproject/private/
