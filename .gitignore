@@ -23,6 +23,11 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+<<<<<<< HEAD
 /evento/nbproject/private/
 /aps-intranet/nbproject/private/
 /apsIntranet/nbproject/private/
+=======
+/vendas
+/example-view
+>>>>>>> 1ea0eeaa2cb5179850c78141fc3ba7dde3b0a551
