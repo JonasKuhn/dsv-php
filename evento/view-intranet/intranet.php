@@ -7,6 +7,11 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" 
               rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+        <script>
+            function excluir(valor){
+                return confirm('Deseja realmente excluir o registro \n'+valor+'?');
+            }
+        </script>
     </head>
     <body>
         <div class="conteudo-principal">
@@ -40,6 +45,8 @@
                     case 'desc_inc': include ('../view-intranet/descricao_opcoes/desc_inc.php');
                         break;
                     case 'desc_alt': include ('../view-intranet/descricao_opcoes/desc_alt.php');
+                        break;
+                    case 'desc_exc': include ('../view-intranet/descricao_opcoes/desc_exc.php');
                         break;
                     case 'patroc_inc': include ('../view-intranet/patrocinadores-opcoes/patroc_inc.php');
                         break;
