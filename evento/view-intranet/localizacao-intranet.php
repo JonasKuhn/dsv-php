@@ -44,8 +44,8 @@
         <tr>
             <td class="col1">
                 <span>
-                    <a href="?url=loc_alt&?id=<?=$cod?>"><img src="../img/icon-editar.png" alt="editar" title="EDITAR"></a>
-                    <a href="#"><img src="../img/icon-lixo.png" alt="apagar" title="APAGAR"></a>
+                    <a href="?url=loc_alt&id=<?=$cod?>"><img src="../img/icon-editar.png" alt="editar" title="EDITAR"></a>
+                    <a href="?url=loc_exc&id=<?=$cod?>" onclick="return excluir('<?= $rua; echo', '; $numero; echo ', '; $bairro; ?>');"><img src="../img/icon-lixo.png" alt="apagar" title="APAGAR"></a>
                 </span>
             </td>
             <td class="col2"><?=$cod?></td>

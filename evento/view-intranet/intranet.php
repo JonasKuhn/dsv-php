@@ -35,6 +35,8 @@
                         break;
                     case 'loc_alt': include ('../view-intranet/localizacao_opcoes/loc_alt.php');
                         break;
+                    case 'loc_exc': include ('../view-intranet/localizacao_opcoes/loc_exc.php');
+                        break;
                     case 'patroc_alt': include ('../view-intranet/patrocinadores-opcoes/patroc_alt.php');
                         break;
                     case 'desc_inc': include ('../view-intranet/descricao_opcoes/desc_inc.php');
