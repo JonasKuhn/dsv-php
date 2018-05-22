@@ -37,6 +37,8 @@
                         break;
                     case 'desc_inc': include ('../view-intranet/descricao_opcoes/desc_inc.php');
                         break;
+                    case 'desc_alt': include ('../view-intranet/descricao_opcoes/desc_alt.php');
+                        break;
                     case 'patroc_inc': include ('../view-intranet/patrocinadores-opcoes/patroc_inc.php');
                         break;
                     

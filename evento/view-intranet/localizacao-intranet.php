@@ -44,7 +44,7 @@
         <tr>
             <td class="col1">
                 <span>
-                    <a href="?url=loc_alt&id=<?=$cod?>"><img src="../img/icon-editar.png" alt="editar" title="EDITAR"></a>
+                    <a href="?url=loc_alt&?id=<?=$cod?>"><img src="../img/icon-editar.png" alt="editar" title="EDITAR"></a>
                     <a href="#"><img src="../img/icon-lixo.png" alt="apagar" title="APAGAR"></a>
                 </span>
             </td>
